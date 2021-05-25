@@ -7,31 +7,38 @@
     <script src="./vue.js"></script>
     <title>markdown</title>
     <style>
+        body{
+            margin: 0;
+        }
         .notebook,.input,.preview{
             /* border: 1px solid red; */
             height: 1000px;
+            float: left;
 
         }
         .notebook{
             background-color: bisque;
             width: 20%;
-            position: absolute;
-            left: 0%;
-            top: 0%;
+            /* position: absolute; */
+            /* float: left; */
+            /* left: 0%;
+            top: 0%; */
         }
         .input{
             background-color: aqua;
             width: 40%;
-            position: absolute;
-            left: 20%;
-            top: 0%;
+            /* position: absolute; */
+            /* float: left; */
+            /* left: 20%;
+            top: 0%; */
         }
         .preview{
             background-color: aquamarine;
             width: 40%;
-            position: absolute;
-            left: 60%;
-            top: 0%;
+            /* position: absolute; */
+            /* float: right; */
+            /* left: 60%;
+            top: 0%; */
         }
     </style>
 </head>
